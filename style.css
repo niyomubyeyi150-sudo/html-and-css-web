@@ -12,7 +12,7 @@ body {
 .navbar {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 95%;
     background: white;
     display: flex;
     justify-content: space-between;
@@ -40,7 +40,7 @@ body {
 .nav-links a {
     text-decoration: none;
     color: black;
-    font-size: 15px;
+    font-size: 18px;
     transition: 0.3s;
     padding: 10px 12px;
 }
@@ -132,7 +132,7 @@ section h2 {
 
 .team-card img {
     width: 100%;
-
+filter: grayscale(70%);
 }
 
 .team-card h3 {
@@ -156,4 +156,40 @@ section h2 {
 
 .team-card button:hover {
     background: #ddd;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact-form input,
+.contact-form textarea {
+    padding: 14px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    width: 100%;
+}
+.contact-form textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+.contact-form button {
+    width: fit-content;
+    border: none;
+    padding: 14px 28px;
+    background: #060505;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.container h4{
+    background: #000000;
+    padding: 30px;
+    border-left: 5px solid #f8f6f6;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    color:#f8f6f6
+
 }
